@@ -7,3 +7,7 @@
     font-family: Manrope, system-ui, sans-serif;
   }
 }
+
+.card-shadow {
+  box-shadow: 0px 40px 40px -10px rgba(201, 213, 225, 0.50);
+}
