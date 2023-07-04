@@ -29,7 +29,7 @@ const App = () => {
             </p>
             <div className="flex justify-between items-center">
               <div className="flex items-center">
-                <img className="w-10 h-10 rounded-full" src={MichelleAvatar} />
+                <img className="w-10 h-10 rounded-full" src={MichelleAvatar} alt="Avatar of Michelle" />
                 <div className="ml-4">
                   <h2 className="text-slate-600 text-[13px] font-bold leading-tight tracking-wide">
                     Michelle Appleton
@@ -47,14 +47,15 @@ const App = () => {
                       Share
                     </p>
                     <div className="flex gap-x-4 z-50 ml-[21px]">
-                      <img src={FacebookIcon} height="20px" />
-                      <img src={TwitterIcon} height="20px" />
-                      <img src={PinterestIcon} height="20px" />
+                      <img src={FacebookIcon} alt="Facebook icon" height="20px" />
+                      <img src={TwitterIcon} alt="Twitter icon" height="20px" />
+                      <img src={PinterestIcon} alt="Pinterest icon" height="20px" />
                     </div>
                   </div>
                 )}
                 <button
                   onClick={handleClick}
+                  title="Share"
                   className={`w-8 h-8 rounded-full z-50 flex items-center justify-center md:relative ${
                     open ? 'bg-slate-500' : 'bg-slate-100'
                   }`}
