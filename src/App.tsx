@@ -15,7 +15,7 @@ const App = () => {
   return (
     <>
       <main className="flex justify-center items-center absolute w-full h-full">
-        <article className="bg-white rounded-lg shadow flex md:flex-row flex-col md:w-max max-md:max-w-[327px]">
+        <article className="bg-white rounded-lg card-shadow flex md:flex-row flex-col md:w-max max-md:max-w-[327px]">
           <div className="md:w-[285px] md:h-[280px] w-[327px] h-[200px] bg-[url('./assets/drawers.jpg')] bg-cover md:rounded-s-lg rounded-t-lg"></div>
           <div className="md:px-[40px] px-8 md:py-8 max-md:pt-8 max-md:pb-[12px] max-md:relative">
             <h1 className="max-w-[365px] text-slate-600 md:text-[20px] text-base max-md:leading-[1.4rem] font-bold leading-7 tracking-wide">
